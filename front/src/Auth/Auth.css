@@ -1,0 +1,25 @@
+form{
+
+    --altura: 30px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    flex-direction: column;
+    gap: 10px;
+
+    & button{
+        width: 200px;
+        margin: 0 auto;
+        height: var(--altura);
+
+    }
+    & input{
+        height: var(--altura);
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid blue;
+
+    }
+}
